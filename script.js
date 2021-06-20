@@ -1,29 +1,15 @@
-$(document).ready(() => {
-  let total = 0;
 
-  $.ajaxSetup({
-    headers: {
-      'Authorization': 'Token 3a298a2a3911e5644d1d9c2dd5645c925e3affa2'
-    }
-  });
+var pattern = "https://www.sostokt.com/api/climbs/0a7be0ac-4ff2-4bf2-bce3-2f7021a82def/latest-sends";
 
-  $.getJSON("data/data.json", (json) => {
-    $.each(json, (index, value) => {
-      if (value.isPrivate) {
-        return true;
-      }
+function redirect(requestDetails) {
+  console.log("Redirecting: " + requestDetails.url);
+  return {
+    redirectUrl: "https://38.media.tumblr.com/tumblr_ldbj01lZiP1qe0eclo1_500.gif"
+  };
+}
 
-      $.getJSON("https://www.sostokt.com/api/climbs/" + value.id + "/latest-sends", (data) => {
-        $.each(json, (index, value) => {
-          console.log(value.effortBy.fullName);
-        })
-      });
-
-      total++;
-    });
-
-    console.log(total);
-  });
-
-
-});
+browser.webRequest.onBeforeRequest.addListener(
+  redirect,
+  {urls:[pattern]},
+  ["blocking"]
+);
