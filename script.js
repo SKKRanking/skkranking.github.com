@@ -3,6 +3,8 @@ let url = "https://divine-morning-31b8.skk-kaos-ranking.workers.dev/api/getClimb
 
 $(document).ready(() => {
   $.getJSON(url, function(data) {
+    console.log(data);
+    
     for(let climber in data) {
       let stats = data[climber].split("-");
       
