@@ -8,6 +8,8 @@ $(document).ready(() => {
     for(let climber in data) {
       let stats = data[climber].split("-");
       
+      console.log(stats);
+      
       let totalPoints = 0;
       
       let gradeIndex = 0;
