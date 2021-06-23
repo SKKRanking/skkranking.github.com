@@ -28,7 +28,7 @@ $(document).ready(() => {
         gradeIndex++;
       }
       
-      console.log(climber, totalPoints);
+      $(".list-group").append("dababY");
     }
   });
 })
