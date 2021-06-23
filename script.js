@@ -17,9 +17,9 @@ $(document).ready(() => {
       console.log(climber);
       for(let gradeStat of stats) {
         let sends = parseInt(gradeStat.substring(0,2));
-        let flashes = parseInt(gradeStat.substring(3,6));
+        let flashes = parseInt(gradeStat.substring(3));
         
-        console.log(flashes,sends);
+        console.log(sends,flashes);
         
         let gradePoints =  50 * sends * (2 * gradeIndex + 3);
         
