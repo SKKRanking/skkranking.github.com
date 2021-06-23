@@ -28,7 +28,7 @@ $(document).ready(() => {
         gradeIndex++;
       }
       
-      $(".list-group").after('<li class="list-group-item"><strong>' + climber + '</strong></li>');
+      $("tbody").after('<tr><th scope="row">1</th><td>' + climber.split(" ")[0] + '</td><td>' + climber.split(" ")[1] + '</td><td>' + totalPoints + '</td></tr>');
     }
   });
 })
