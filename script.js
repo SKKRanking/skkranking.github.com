@@ -21,7 +21,7 @@ $(document).ready(() => {
         
         console.log(sends,flashes);
         
-        let gradePoints =  50 * sends * (2 * gradeIndex + 3);
+        let gradePoints =  50 * sends * (gradeIndex + 1) + 50 * flashes * (gradeIndex+2);
         
         totalPoints += gradePoints;
             
