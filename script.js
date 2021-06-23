@@ -38,5 +38,7 @@ $(document).ready(() => {
       
       climberIndex--;
     }
+    
+    $("table").table();
   });
 })
