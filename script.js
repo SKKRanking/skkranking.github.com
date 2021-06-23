@@ -29,7 +29,7 @@ $(document).ready(() => {
     }
     
     climbers.sort((climber1, climber2) => {
-      return climber1.points > climber2.points;
+      return climber1.points - climber2.points;
     })
     
     let climberIndex = climbers.length;
