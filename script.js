@@ -16,8 +16,8 @@ $(document).ready(() => {
       
       console.log(climber);
       for(let gradeStat of stats) {
-        let sends = parseInt(gradeStat.substring(0,2));
-        let flashes = parseInt(gradeStat.substring(3));
+        let sends = gradeStat.substring(0,2);
+        let flashes = gradeStat.substring(3);
         
         console.log(sends,flashes);
         
