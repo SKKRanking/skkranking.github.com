@@ -29,7 +29,7 @@ $(document).ready(() => {
         gradeIndex++;
       }
       
-      climbers.push({"first": climber.split(" ")[0], "second": climber.split(" ")[1], "points": totalPoints};
+      climbers.push({"first": climber.split(" ")[0], "second": climber.split(" ")[1], "points": totalPoints});
     }
     
     climbers.sort((climber1, climber2) => {
