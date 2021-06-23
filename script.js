@@ -28,7 +28,7 @@ $(document).ready(() => {
         gradeIndex++;
       }
       
-      $(".list-group").after('<a class="list-group-item list-group-item-action" id='+climber.split(" ").join(") +' data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">'+climber+'</a>');
+      $(".list-group").after('<a class="list-group-item list-group-item-action" id='+climber.split(" ").join("") +' data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">'+climber+'</a>');
     }
   });
 })
