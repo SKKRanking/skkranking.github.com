@@ -32,11 +32,11 @@ $(document).ready(() => {
       return climber1.points > climber2.points;
     })
     
-    let climberIndex = 1;
+    let climberIndex = climbers.length;
     for(let climber of climbers) {
       $("tbody").after('<tr><th scope="row">' + climberIndex.toString() + '</th><td>' + climber.first + '</td><td>' + climber.second + '</td><td>' + climber.points + '</td></tr>');
       
-      climberIndex++;
+      climberIndex--;
     }
   });
 })
