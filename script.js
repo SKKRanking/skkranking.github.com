@@ -28,7 +28,7 @@ $(document).ready(() => {
         gradeIndex++;
       }
       
-      $(".list-group").after('<li class="list-group-item">' + climber + '</li>');
+      $(".list-group").after('<li class="list-group-item"><strong>' + climber + '</strong></li>');
     }
   });
 })
