@@ -35,5 +35,9 @@ $(document).ready(() => {
     climbers.sort((climber1, climber2) => {
       return climber1.points > climber2.points;
     })
+    
+    for(let climber of climbers) {
+      $("tbody").after('<tr><th scope="row">1</th><td>' + climber.split(" ")[0] + '</td><td>' + climber.split(" ")[1] + '</td><td>' + totalPoints + '</td></tr>');
+    }
   });
 })
