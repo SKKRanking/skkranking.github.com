@@ -17,7 +17,7 @@ $(document).ready(() => {
         totalPoints += (i+1) * value * 50;
       });
       
-      climbers.push({"first": climber.split(" ")[0], "second": climber.split(" ")[1], "points": totalPoints});
+      climbers.push({"first": climber.name.split(" ")[0], "second": climber.name.split(" ")[1], "points": totalPoints});
     }
     
     climbers.sort((climber1, climber2) => {
