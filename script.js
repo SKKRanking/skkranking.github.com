@@ -1,29 +1,21 @@
-let url = "https://divine-morning-31b8.skk-kaos-ranking.workers.dev/api/getClimberData";
+let url = "http://skk-ranking.herokuapp.com/getRankingData";
 
 let climbers = [];
 
 $(document).ready(() => {
   $.getJSON(url, function(data) {
     
-    for(let climber in data) {
-      let stats = data[climber].split("-");
+    for(let climber of data) {
+      let name = climber.Name;
+      let flashes = climber.Flashes;
+      let firstAscents = climber.FirstAscents;
+      let sendsList = climber.Sends;
       
+      let totalPoints = 25*firstAscents + 50*flashes;
       
-      let totalPoints = 0;
-      
-      let gradeIndex = 0;
-      
-      for(let gradeStat of stats) {
-        let sends = parseInt(gradeStat.substring(0,3));
-        let flashes = parseInt(gradeStat.substring(3));
-        
-        
-        let gradePoints =  50 * sends * (gradeIndex + 1) + 50 * flashes * (gradeIndex+2);
-        
-        totalPoints += gradePoints;
-            
-        gradeIndex++;
-      }
+      sendsList.forEach((value, i) => {
+        totalPoints += (i+1) * value * 50;
+      });
       
       climbers.push({"first": climber.split(" ")[0], "second": climber.split(" ")[1], "points": totalPoints});
     }
