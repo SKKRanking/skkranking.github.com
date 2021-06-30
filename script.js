@@ -5,7 +5,7 @@ let climbers = [];
 $(document).ready(() => {
   $.getJSON(url, function(data) {
     
-    for(let climber of data.reverse()) {
+    for(let climber of data) {
       let name = climber.Name;
       let flashes = climber.Flashes;
       let firstAscents = climber.FirstAscents;
@@ -25,7 +25,7 @@ $(document).ready(() => {
     })
     
     let climberIndex = climbers.length;
-    for(let climber of climbers) {
+    for(let climber of climbers.reverse()) {
       $("tbody").append('<tr><th scope="row">' + climberIndex.toString() + '</th><td>' + climber.first + '</td><td>' + climber.second + '</td><td>' + climber.points + '</td></tr>');
       
       climberIndex--;
