@@ -5,7 +5,7 @@ let climbers = [];
 $(document).ready(() => {
   $.getJSON(url, function(data) {
     
-    for(let climber of data) {
+    for(let climber of data.reverse()) {
       let name = climber.Name;
       let flashes = climber.Flashes;
       let firstAscents = climber.FirstAscents;
