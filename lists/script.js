@@ -1,6 +1,6 @@
 $.getJSON( "ajax/test.json", function(data) {
   let listPicker = $('#list-tab');
-  let listViewer = $(#'nav-tabContent');
+  let listViewer = $('#nav-tabContent');
                      
   $.each(data, function(key, val) {
     let lower = val.name.toLowerCase();
