@@ -1,4 +1,4 @@
-$.getJSON( "ajax/test.json", function(data) {
+$.getJSON("lists.json", function(data) {
   let listPicker = $('#list-tab');
   let listViewer = $('#nav-tabContent');
                      
