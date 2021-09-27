@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Classics",
+    "problems": [
+      {
+        "name": "Ingen väg ut",
+        "grade": "6A",
+        "setter": "Carl Nilsask"
+      },
+      {
+        "name": "Obama sauce",
+        "grade": "7A",
+        "setter": "Karl XII"
+      }
+    ]
+  },
+  {
+    "name": "Dynos",
+    "problems": [
+      {
+        "name": "Remix",
+        "grade": "7A",
+        "setter": "Alexander Ristinmaa"
+      }
+    ]
+  }
+]
