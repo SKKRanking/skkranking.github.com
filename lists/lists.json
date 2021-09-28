@@ -3,9 +3,39 @@
     "name": "Classics",
     "problems": [
       {
+        "name": "Sköldpaddan",
+        "setter": "Emil Telander",
+        "grade": "7B"
+      },
+      {
         "name": "Långtsam",
         "setter": "Emil Telander",
         "grade": "7A+"
+      },
+      {
+        "name": "Humbug",
+        "setter": "Carl Nilsask",
+        "grade": "7A+"
+      },
+      {
+        "name": "Snytbagge",
+        "setter": "Petter K",
+        "grade": "6C+"
+      },
+      {
+        "name": "Xtal",
+        "setter": "Abbe Willim",
+        "grade": "6C"
+      },
+      {
+        "name": "Metro",
+        "setter": "Andras Turi",
+        "grade": "6B"
+      },
+      {
+        "name": "En tvättäkta femma",
+        "setter": "Dante Helling",
+        "grade": "5"
       }
     ]
   },
