@@ -58,6 +58,31 @@
     "name": "Pinches",
     "problems": [
       {
+        "name": "Gurkan",
+        "setter": "Carl Nilsask",
+        "grade": "7B"
+      },
+      {
+        "name": "Primitiv Astronaut",
+        "setter": "Oskar Levander",
+        "grade": "7A+"
+      },
+      {
+        "name": "Pappsingen pappsen",
+        "setter": "Carl Nilsask",
+        "grade": "7A"
+      },
+      {
+        "name": "Exciting Gerbil",
+        "setter": "Simon Klind",
+        "grade": "6C+"
+      },
+      {
+        "name": "Enthusiastic Bee",
+        "setter": "Simon Klind",
+        "grade": "6C+"
+      },
+      {
         "name": "Pinchy",
         "grade": "6C+",
         "setter": "Alexander Ristinmaa"
