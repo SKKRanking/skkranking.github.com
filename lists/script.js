@@ -11,13 +11,13 @@ $.getJSON("lists.json", function(data) {
     listViewer
       .append('<div class="tab-pane fade" id="list-' + lower + '" role="tabpanel" aria-labelledby="list-' + lower + '-list"></div>')
       .last()
-      .append('<ul class="list-group-item d-flex justify-content-between align-items-center"></ul>');
+      .append('<ul class="list-group"></ul>');
     
     let listGroup = listViewer.last().last();
     
     for(problem of val.problems) {
       listGroup
-        .append('<li class="list-group-item">' + problem.name + ' by <small>' + problem.setter + ' </small><span class="badge bg-info rounded-pill">' + problem.grade + '</span></li>');
+        .append('<li class="list-group-item d-flex justify-content-between align-items-center">' + problem.name + ' by <small>' + problem.setter + ' </small><span class="badge bg-info rounded-pill">' + problem.grade + '</span></li>');
     }
   });
 });
