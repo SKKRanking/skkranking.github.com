@@ -118,7 +118,11 @@
   {
     "name": "Techy",
     "problems" : [
-      
+      {
+        "name": "Klimatkompensation",
+        "setter": "Petter K",
+        "grade": "6C+"
+      }
     ]
   },
   {
