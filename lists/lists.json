@@ -132,7 +132,38 @@
   },
   {
     "name": "Weirdos",
-    "problems": []
+    "problems": [
+      {
+        "name": "Sås",
+        "setter": "Emil Telander",
+        "grade": "7B"
+      },
+      {
+        "name": "Svårälskad";
+        "setter": "Alexander Ristinmaa",
+        "grade": "7A+"
+      },
+      {
+        "name": "Igen?",
+        "setter": "Anton Ristinmaa",
+        "grade": "6C"
+      },
+      {
+        "name": "Treenigheten",
+        "setter": "Carl Nilsask",
+        "grade": "6C"
+      },
+      {
+        "name": "Satans Son",
+        "setter": "Alexander Ristinmaa",
+        "grade": "6C"
+      },
+      {
+        "name": "Trams",
+        "setter": "Alexander Ristinmaa",
+        "grade": "6C"
+      }
+    ]
   },
   {
     "name": "Compression",
