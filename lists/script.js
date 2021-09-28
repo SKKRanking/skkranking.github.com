@@ -8,9 +8,11 @@ $.getJSON("lists.json", function(data) {
     listPicker
       .append('<a class="list-group-item list-group-item-action" id="list-' + lower + '-list" data-bs-toggle="list" href="#list-' + lower + '" role="tab" aria-controls="list-' + lower + '">' + val.name + '</a>');
     
-    let listGroup = listViewer
+    listViewer
       .append('<div class="tab-pane fade" id="list-' + lower + '" role="tabpanel" aria-labelledby="list-' + lower + '-list"></div>')
       .append('<ul class="list-group"></ul>');
+    
+    let listGroup = listViewer.last().last();
     
     for(problem of val.problems) {
       listGroup
