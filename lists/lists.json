@@ -187,5 +187,20 @@
   {
     "name": "Crimps",
     "problems": []
+  },
+  {
+    "name": "Pockets",
+    "problems": [
+      {
+        "name": "Pocket-pussy",
+        "setter": "Emil Telander",
+        "grade": "7A+"
+      },
+      {
+        "name": "WAP (Wireless Access Protocol)",
+        "setter": "Viktor Kertesz",
+        "grade": "6C"
+      }
+    ]
   }
 ]
