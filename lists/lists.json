@@ -68,6 +68,11 @@
         "grade": "6B+"
       },
       {
+        "name": "APAN",
+        "setter": "Linus Qvarnström",
+        "grade": "6A+"
+      },
+      {
         "name": "Kissemiss",
         "setter": "Ville Mildner",
         "grade": "6A"
@@ -162,6 +167,16 @@
         "name": "Trams",
         "setter": "Alexander Ristinmaa",
         "grade": "6C"
+      },
+      {
+        "name": "Kort",
+        "setter": "Jonas ClimbingSKK",
+        "grade": "4"
+      },
+      {
+        "name": "(4,5(e^(4/8)) * 0,54)/4,01 + 0.0009)2^2",
+        "setter": "Abbe Willim",
+        "grade": "4"
       }
     ]
   },
