@@ -18,7 +18,7 @@ $.getJSON("lists.json", function(data) {
     
     for(problem of val.problems) {
       listGroup
-        .append('<li class="list-group-item d-flex justify-content-between align-items-center">' + problem.name + ' by <small>' + problem.setter + ' </small><span class="badge bg-info rounded-pill">' + problem.grade + '</span></li>');
+        .append('<li class="list-group-item d-flex justify-content-between align-items-center">' + problem.name + '<small>' + problem.setter + ' </small><span class="badge bg-info rounded-pill">' + problem.grade + '</span></li>');
     }
   });
 });
