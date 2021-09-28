@@ -14,7 +14,7 @@ $.getJSON("lists.json", function(data) {
     
     for(problem of val.problems) {
       listGroup
-        .append('<li class="list-group-item">' + problem.name + ' by ' + problem.setter + ' <span class="badge bg-info">' + problem.grade + '</span></li>');
+        .append('<li class="list-group-item">' + problem.name + ' by <small>' + problem.setter + ' </small><span class="badge bg-info">' + problem.grade + '</span></li>');
     }
   });
 });
