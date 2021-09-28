@@ -2,16 +2,7 @@
   {
     "name": "Classics",
     "problems": [
-      {
-        "name": "Ingen väg ut",
-        "grade": "6A",
-        "setter": "Carl Nilsask"
-      },
-      {
-        "name": "Obama sauce",
-        "grade": "7A",
-        "setter": "Karl XII"
-      }
+      
     ]
   },
   {
@@ -23,5 +14,46 @@
         "setter": "Alexander Ristinmaa"
       }
     ]
+  },
+  {
+    "name": "Pinches",
+    "problems": [
+      {
+        "name": "Pinchy",
+        "grade": 6C+,
+        "setter": "Alexander Ristinmaa"
+    ]
+  },
+  {
+    "name": "Techy",
+    "problems" : [
+      
+    ]
+  },
+  {
+    "name": "Slopers",
+    "problems": [
+      
+    ]
+  },
+  {
+    "name": "POWER",
+    "problems": []
+  },
+  {
+    "name": "Campus classics",
+    "problems": []
+  },
+  {
+    "name": "Weirdos",
+    "problems": []
+  },
+  {
+    "name": "Compression",
+    "problems": []
+  },
+  {
+    "name": "Crimps",
+    "problems": []
   }
 ]
