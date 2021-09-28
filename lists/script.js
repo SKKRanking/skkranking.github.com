@@ -10,10 +10,11 @@ $.getJSON("lists.json", function(data) {
     
     listViewer
       .append('<div class="tab-pane fade" id="list-' + lower + '" role="tabpanel" aria-labelledby="list-' + lower + '-list"></div>')
+      .children()
       .last()
       .append('<ul class="list-group"></ul>');
     
-    let listGroup = listViewer.last().last();
+    let listGroup = listViewer.children().last().children().last();
     
     for(problem of val.problems) {
       listGroup
