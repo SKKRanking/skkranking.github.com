@@ -2,7 +2,11 @@
   {
     "name": "Classics",
     "problems": [
-      
+      {
+        "name": "Långtsam",
+        "setter": "Emil Telander",
+        "grade": "7A+"
+      }
     ]
   },
   {
