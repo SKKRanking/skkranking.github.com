@@ -51,6 +51,27 @@
         "name": "Remix",
         "grade": "7A",
         "setter": "Alexander Ristinmaa"
+      },
+      {
+        "name": "DubbelTrubbel",
+        "setter": "Carl Nilsask",
+        "grade": "6C+"
+      },
+      {
+        "name": "R.U.D.O.L.F",
+        "setter": "Alexander Ristinmaa",
+        "grade": "6C"
+      },
+      {
+        "name": "Hoppstylta",
+        "setter": "Alexander Ristinmaa",
+        "grade": "6B+"
+      },
+      {
+        "name": "Kissemiss",
+        "setter": "Ville Mildner",
+        "grade": "6A"
+        
       }
     ]
   },
