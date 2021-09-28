@@ -10,6 +10,7 @@ $.getJSON("lists.json", function(data) {
     
     listViewer
       .append('<div class="tab-pane fade" id="list-' + lower + '" role="tabpanel" aria-labelledby="list-' + lower + '-list"></div>')
+      .last()
       .append('<ul class="list-group-item d-flex justify-content-between align-items-center"></ul>');
     
     let listGroup = listViewer.last().last();
