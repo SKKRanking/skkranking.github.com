@@ -1,4 +1,4 @@
-let url = "https://skk-ranking.herokuapp.com/api/getClimberData";
+let url = "https://skk-ranking.herokuapp.com/getRankingData";
 
 let climbers = [];
 
