@@ -14,7 +14,7 @@ $(document).ready(() => {
       let totalPoints = 25*firstAscents + 50*flashes;
       
       sendsList.forEach((value, i) => {
-        totalPoints += (i+1) * value * 50;
+        totalPoints += (i+1) * value * 100;
       });
       
       climbers.push({"first": name.split(" ")[0], "second": name.split(" ")[1], "points": totalPoints});
