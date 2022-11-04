@@ -17,7 +17,7 @@ $(document).ready(() => {
         totalPoints += 20 * Math.pow(1.258498,i) * value;
       });
       
-      climbers.push({"first": name.split(" ")[0], "second": name.split(" ")[1], "points": totalPoints});
+      climbers.push({"first": name.split(" ")[0], "second": name.split(" ")[1], "points": Math.round(totalPoints))});
     }
     
     climbers.sort((climber1, climber2) => {
